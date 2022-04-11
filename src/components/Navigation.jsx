@@ -1,5 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import LogoutButton from "./LogoutButton";
+
+
 
 function Navigation() {
   return (
@@ -27,10 +30,12 @@ function Navigation() {
                   About
                 </NavLink>
               </li>
+              <li>{ <LogoutButton/> }</li>
             </ul>
           </div>
         </div>
       </nav>
+
     </div>
   );
 }

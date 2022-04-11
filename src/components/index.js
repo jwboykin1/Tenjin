@@ -5,3 +5,4 @@ export { default as About } from "./About";
 export { default as Contact } from "./Contact";
 export { default as Coursework } from "./Coursework";
 export { default as Spotify } from "./Spotify";
+export { default as LogoutButton } from "./LogoutButton";
