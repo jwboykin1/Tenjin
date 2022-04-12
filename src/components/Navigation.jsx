@@ -22,7 +22,7 @@ function Navigation() {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/Coursework">
-                  CourseworkBeta
+                  Coursework
                 </NavLink>
               </li>
               <li className="nav-item">
