@@ -30,7 +30,7 @@ ReactDOM.render(
         </Auth0Provider>
     </Navigation>
     <Routes>
-      <Route path="/Home" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/Coursework" element={<Coursework />} />
         <Route path="LogoutButton" element={<LogoutButton />}/>
