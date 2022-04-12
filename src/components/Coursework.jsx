@@ -8,11 +8,11 @@ function Coursework() {
             <h1>Courses</h1>
             <h2 class="courseHeader">Computer Basics</h2>
             <ul id="menu">
-                <li><a href="http://10.128.0.3:8080/guacamole" target="_blank">Change Mouse Pointer Size</a></li>
+                <a href="http://10.128.0.3:8080/guacamole" target="_blank"><li>Change Mouse Pointer Size</li></a>
             </ul>
             <h2 class="courseHeader">Security and Phishing Awareness</h2>
             <ul id="menu">
-                <li><a href="Spotify">Phishing Real-World Examples</a></li>
+                <a href="Spotify"><li>Phishing Real-World Examples</li></a>
             </ul>
 
         </div>

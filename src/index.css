@@ -397,14 +397,14 @@ button {
   margin: auto;
 }
 
-#menu li a {
+#menu a li{
   font-weight: bold;
   text-decoration: none;
   line-height: 2.8em;
   color: #000000;
 }
 
-li a{
+a li{
   font-size: 1.6rem;
 }
 
