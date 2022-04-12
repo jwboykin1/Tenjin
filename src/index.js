@@ -11,7 +11,8 @@ import {
   Contact,
   Coursework,
     Spotify,
-    LogoutButton
+    LogoutButton,
+    About
 } from "./components";
 
 
@@ -34,6 +35,8 @@ ReactDOM.render(
       <Route path="/contact" element={<Contact />} />
       <Route path="/Coursework" element={<Coursework />} />
         <Route path="LogoutButton" element={<LogoutButton />}/>
+        <Route path="/Spotify" element={<Spotify/>}/>
+        <Route path={"/About"} element={<About/>}/>
     </Routes>
       <Footer />
   </Router>,

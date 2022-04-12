@@ -1,19 +1,15 @@
 import React from "react";
 import {useLocation} from "react-router-dom";
 
-function Footer() {
+
+
+function Footer(){
     const { pathname } = useLocation();
-  return (
-    <div className="footer">
-      <footer class="py-5 bg-dark fixed-bottom" style={{ position: pathname === '/Spotify' ? 'static' : 'fixed' }}>
-        <div class="container">
-          <p class="m-0 text-center text-white">
-            Copyright &copy; Tenjin Tech 2022
-          </p>
-        </div>
-      </footer>
-    </div>
-  );
+    return(
+  <footer className="footer" style={{ position: pathname === '/Spotify' ? 'static' : 'fixed', height: pathname === '/Spotify' ? '43px' : 'auto'}}>
+    <p>Copyright @ Tenjin Tech 2022</p>
+  </footer>
+);
 }
 
 export default Footer;
